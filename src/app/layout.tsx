@@ -1,6 +1,6 @@
 import Header from '@/components/header'
 import './globals.css'
-import { Inter, Kelly_Slab } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
