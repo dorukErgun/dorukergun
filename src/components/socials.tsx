@@ -23,8 +23,9 @@ export default function Socials() {
 
   return (
     <div className="flex gap-x-2">
-      {socials.map((social) => (
+      {socials.map((social, index) => (
         <Link 
+          key={index.toString()}
           href={social.link} 
           target="_blank" 
           rel="noopener noreferrer" 
