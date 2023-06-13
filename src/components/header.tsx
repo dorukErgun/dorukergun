@@ -20,7 +20,7 @@ export default function Header () {
           <h1 className="text-4xl">Doruk Ergün</h1>
           <h2 className="text-xl">Software Engineer at Accenture</h2>
           <h3 className="text-base text-subtext">
-            I'm a full-stack web developer specializing in creating accessible digital products. I strive to build user-friendly websites that cater to diverse audiences!
+            I&apos;m a full-stack web developer specializing in creating accessible digital products. I strive to build user-friendly websites that cater to diverse audiences!
           </h3>
         </div>  
         <div>

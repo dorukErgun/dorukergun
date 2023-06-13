@@ -12,7 +12,7 @@ export default function About() {
         I have been working with React, Next.js, Node.js, Angular, MySQL, PostgreSQL, and other technologies developing Banking, 
         E-Commerce, and other web applications serving thousands of users.
         <br/><br/>
-        My main focus is to build products using the latest technologies and make people's lives easier with friendly ✨UI's and UX's✨.
+        My main focus is to build products using the latest technologies and make people&apos;s lives easier with friendly ✨UI&apos;s and UX&apos;s✨.
       </div>
     </section>
   )
