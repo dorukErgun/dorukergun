@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Github as GithubIcon, Twitter as TwitterIcon, Linkedin as LinkedinIcon, Instagram as InstagramIcon } from 'lucide-react';
 
 export default function Socials() {
 
@@ -6,23 +7,27 @@ export default function Socials() {
     {
       name: 'Github',
       link: 'https://github.com/dorukErgun',
+      icon: GithubIcon
     },
     {
       name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/dorukergun99/'
+      link: 'https://www.linkedin.com/in/dorukergun99/',
+      icon: LinkedinIcon
     },
     {
       name: 'Twitter',
-      link: 'https://twitter.com/dorukergundev'
+      link: 'https://twitter.com/dorukergundev',
+      icon: TwitterIcon
     },
     {
       name: 'Instagram',
-      link: 'https://www.instagram.com/dorukergun/'
+      link: 'https://www.instagram.com/dorukergun/',
+      icon: InstagramIcon
     },
   ]
 
   return (
-    <div className="flex gap-x-2">
+    <div className="flex gap-x-3">
       {socials.map((social, index) => (
         <Link 
           key={index.toString()}
@@ -31,7 +36,7 @@ export default function Socials() {
           rel="noopener noreferrer" 
           className="text-base text-subtext hover:text-primary transition-colors duration-300 ease-in-out"
         >
-          {social.name}
+          <social.icon className="w-6 h-6" />
         </Link>
       ))}
     </div>
