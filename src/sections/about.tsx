@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="">
-      <h3 className="font-thin text-base text-maintext">
+      <h3 className="font-thin text-xl text-maintext">
         About
       </h3>
       <div className="pt-5 w-1/2">

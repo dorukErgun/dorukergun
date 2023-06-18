@@ -3,8 +3,8 @@ import Socials from './socials';
 
 export default function Header () {
   return (
-    <header className="flex bg-secondary text-maintext font-extralight h-screen md:h-full py-24 pl-12 md:pl-36">
-      <div className="flex flex-col justify-between pr-12 md:pr-36 border-0 md:border-r border-primary">
+    <header className="flex text-maintext font-extralight h-screen md:h-full py-24 px-6 md:px-12">
+      <div className="flex flex-col justify-between md:pr-12 border-0 md:border-r border-primary">
         <div className="flex flex-col gap-y-1">
           <div className="relative mb-3">
             <Image 
