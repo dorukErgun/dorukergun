@@ -26,7 +26,7 @@ export default function Home() {
                 <div>
                   {experience.description}
                 </div>
-                <div className="flex gap-2 text-xs">
+                <div className="flex flex-wrap gap-2 text-xs">
                   {experience.technologyTags.map((technology, index) => {
                     return (
                       <span key={index.toString()} className="border-[#3bb6d5] border hover:scale-105 hover:cursor-default transition-all text-white px-3 py-1 rounded-xl">

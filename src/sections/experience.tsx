@@ -1,4 +1,3 @@
-"use client"
 import { EXPERIENCES } from "@/content/experience";
 
 export default function Experience() {
@@ -17,16 +16,26 @@ export default function Experience() {
               </div>
               <div className="flex flex-1 flex-col gap-y-2">
                 <div className="font-semibold text-lg">
-                  {experience.position} @ <span className="text-primary text-2xl">{experience.company}</span> 
+                  {experience.position} <span className="text-primary">@{experience.company}</span> 
                 </div>
                 <div>
                   {experience.description}
+                </div>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  {experience.technologyTags.map((technology, index) => {
+                    return (
+                      <span key={index.toString()} className="border-[#3bb6d5] border hover:scale-105 hover:cursor-default transition-all text-white px-3 py-1 rounded-xl">
+                        {technology}
+                      </span>
+                    )
+
+                  })}
+                  
                 </div>
               </div>
             </div>
           )
         })}
-
       </div>
     </section>
   )
