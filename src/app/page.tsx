@@ -1,6 +1,6 @@
-import { EXPERIENCES } from "@/content/experience";
 import About from "@/sections/about";
-import Experience from "@/sections/experience";
+import Experience from "@/sections/experiences";
+import Projects from "@/sections/projects";
 
 
 export default function Home() {
@@ -9,6 +9,8 @@ export default function Home() {
       <About />
       <div className="pt-20"/>
       <Experience />
+      <div className="pt-20"/>
+      <Projects />
     </main>
   )
 }

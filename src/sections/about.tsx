@@ -4,7 +4,7 @@ export default function About() {
       <h3 className="font-thin text-xl text-maintext">
         About
       </h3>
-      <div className="pt-5 w-1/2">
+      <div className="pt-5 w-full">
         I have started developing web applications in 2019 while trying to figure out college. Fell in love with it, never stopped since.
         I had the pleasure of working with people from around the world on various projects. 
         I am currently working as a Software Engineer.

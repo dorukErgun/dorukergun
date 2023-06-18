@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-secondary static md:flex overflow-auto`}>
+      <body className={`${inter.className} bg-secondary static md:flex overflow-auto p-0 lg:px-36 xl:px-56`}>
         <div className="w-full static md:w-1/3 md:sticky md:top-0 md:h-screen overflow-hidden">
           <Header />
         </div>
