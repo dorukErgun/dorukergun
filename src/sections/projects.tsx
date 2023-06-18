@@ -13,12 +13,13 @@ export default function Projects() {
         {PROJECTS.map((project, index) => {
           return (
             <Link 
+              key={index.toString()} 
               href={project.url} 
               target="_blank" 
               rel="noopener noreferrer"
               className="md:-ml-5" 
             >
-              <div key={index.toString()} className="w-full flex md:hover:bg-black/30 md:p-5 transition-all rounded-md md:hover:shadow-xl">
+              <div className="w-full flex md:hover:bg-black/30 md:p-5 transition-all rounded-md md:hover:shadow-xl">
                 <div className="w-[100px] md:w-[200px] pr-5  relative">
                     <Image 
                       src={project.image} 
