@@ -21,7 +21,7 @@ export default function Socials() {
     },
     {
       name: 'Instagram',
-      link: 'https://www.instagram.com/dorukergun/',
+      link: 'https://www.instagram.com/dorukergn/',
       icon: InstagramIcon
     },
   ]
